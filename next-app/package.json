@@ -1,0 +1,35 @@
+{
+  "name": "next-app",
+  "version": "1.0.0",
+  "description": "A modern web application using the Next.js framework, uses ffmpeg-wasm to process video, supports local video, youtube video upload, simple video format conversion and cropping",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "next.js",
+    "ffmpeg-wasm",
+    "video processing",
+    "youtube upload",
+    "video conversion",
+    "video cropping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "ffmpeg-wasm": "latest",
+    "express": "latest",
+    "multer": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
